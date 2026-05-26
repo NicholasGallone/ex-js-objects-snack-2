@@ -5,12 +5,12 @@
 
 2 console.log(hamburger.ingredients[0]); // 'salad'
   console.log(secondBurger.ingredients[0]); // 'salad'
-  solamente un oggetto
+ tre oggetti
 
 
-3 tre oggetti
+nove oggetti
 
 
 4 creare una shallow copy con il destructuring visto che la funzione non verrebbe copiata
 con nessun altro metodo
-usare JSON.stringify visto che si tratta di un oggetto complesso per via di date
+usare structuredClone visto che è presente un oggetto complesso
